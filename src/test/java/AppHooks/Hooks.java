@@ -19,7 +19,7 @@ public class Hooks {
 public void launch_browser(Scenario scenario) {
 	Properties prop = new Properties();
 	try {
-		FileInputStream fis = new FileInputStream("src\\test\\resources\\config\\config.properties");
+		FileInputStream fis = new FileInputStream("src/test/resources/config/config.properties");
 		prop.load(fis);
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
