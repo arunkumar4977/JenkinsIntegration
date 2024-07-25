@@ -22,7 +22,7 @@ public void launch_browser(Scenario scenario) {
 		FileInputStream fis = new FileInputStream("src/test/resources/config/config.properties");
 		prop.load(fis);
 	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
+		// TODO  Auto-generated catch block
 		e.printStackTrace();
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
