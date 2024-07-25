@@ -35,6 +35,7 @@ public void launch_browser(Scenario scenario) {
 		   System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		   
 		   ChromeOptions cp = new ChromeOptions();
+		   cp.addArguments("--headless");
 		   cp.addArguments("--remote-allow-origins=*");
 		   cp.addArguments("--start-maximized");
 		   
