@@ -32,7 +32,7 @@ public void launch_browser(Scenario scenario) {
 	String browser = prop.getProperty("browser");
 	if(browser.equals("chrome")) {
 		 WebDriver driver = null;
-		   System.setProperty("webdriver.chrome.driver", "C:/Users/NEO/Desktop/Selenimchrome/chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/linuxdriver/chromedriver");
 		   
 		   ChromeOptions cp = new ChromeOptions();
 		   cp.addArguments("--remote-allow-origins=*");
